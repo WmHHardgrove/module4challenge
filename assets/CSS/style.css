@@ -1,0 +1,41 @@
+* {
+    color: black;
+    background-color: #bcfec2;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 20px;
+    text-align: center;
+    font-size: 48px;
+}
+
+main {
+    padding: 10%;
+}
+
+aside {
+    padding: 5%;
+    border: 3px solid black;
+    border-width: 3px;
+}
+
+.floatleft {
+    float: left;
+    width: 60%;
+    height: 329px;
+    
+}
+
+.floatright {
+    float: right;
+    width: 40%;
+    
+}
+
+button {
+    background-color: black;
+    color: antiquewhite;
+}
+
