@@ -1,27 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>miniQuiz</title>
-    <link rel="stylesheet"  href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/style.css">
 </head>
+
 <body>
-    <header>Java Fundimentals Quiz</header>
-        <main>
-            <aside class="floatleft">
+    <header>Javascript Fundimentals Quiz Show</header>
+    <main>
+
+        <aside class="floatleft">
+            <div id="quiznbutton">
                 <h1>Quiz</h1>
-                <button>Start</button>
-            </aside>
-            <aside  class="floatright">
-                <h1>Timer :</h1>
-                <p id="countdown"></p>
-            </aside>
-            <aside class='floatright'>
-                <h1>Leaderboard</h1>
-            </aside>
-        </main>
+                <button id="startbutton">Start</button>
+            </div>
+            <div id="qacontainer"      class="hide">
+                <div id="question">Question : </div>
+                <div class="answer" id="answers">
+                    <button class="btn"  id="answers1">''</button>
+                    <button class="btn"  id="answers2">''</button>
+                    <button class="btn"  id="answers3">''</button>
+                    <button class="btn"  id="answers4">''</button>
+                </div>
+            </div>
+        </aside>
+
+        <aside class="floatright">
+            <h1>Timer :</h1>
+            <p id="countdown"></p>
+        </aside>
+    
+    </main>
     <script type="text/javascript" src="./JS/script.js"></script>
 </body>
+
 </html>
